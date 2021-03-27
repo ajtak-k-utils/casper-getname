@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 void writeFile(char *array){
     FILE *file = fopen("/etc/casperhost-name", "w");
@@ -8,11 +9,20 @@ void writeFile(char *array){
 }
 
 int main(void){
-    int c;
+    int c, i, y;
     
     char keyboardArray[25] = "";;    
     char *r = keyboardArray;
     int counter = 0;
+
+    for (i = 0; i < 11; i++){
+        printf ("... Please wait .");
+        for(y = 0; y < i; y++){
+            printf (".");
+        }
+        printf ("\n");
+        sleep (1);
+    }
 
     printf("\n");
     printf("###########################################################\n");

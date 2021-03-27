@@ -8,7 +8,7 @@
             "name": "Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/casper-gethostname",
+            "program": "${workspaceFolder}/casperhost-name",
             "args": [],
             "stopAtEntry": false,
             "preLaunchTask": "build",
