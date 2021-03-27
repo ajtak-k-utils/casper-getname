@@ -15,14 +15,8 @@ int main(void){
     char *r = keyboardArray;
     int counter = 0;
 
-    for (i = 0; i < 11; i++){
-        printf ("... Please wait .");
-        for(y = 0; y < i; y++){
-            printf (".");
-        }
-        printf ("\n");
-        sleep (1);
-    }
+    printf ("... Please wait ...\n")
+    sleep (2);
 
     printf("\n");
     printf("###########################################################\n");
