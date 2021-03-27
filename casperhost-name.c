@@ -9,13 +9,13 @@ void writeFile(char *array){
 }
 
 int main(void){
-    int c, i, y;
+    int c;
     
     char keyboardArray[25] = "";;    
     char *r = keyboardArray;
     int counter = 0;
 
-    printf ("... Please wait ...\n")
+    printf ("... Please wait ...\n");
     sleep (2);
 
     printf("\n");
