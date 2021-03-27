@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "stdarg.h": "c",
+        "stdio.h": "c",
+        "network_start.h": "c",
+        "network_stop.h": "c",
+        "download_preseed.h": "c",
+        "termios.h": "c",
+        "errno.h": "c",
+        "stdlib.h": "c"
+    }
+}

@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/optd/casperhost-name'
+gcc  -Wall -Wno-unused-result -O2 -g     casperhost-name.c   -o casperhost-name
+make: Leaving directory '/optd/casperhost-name'
+ 
+Must specify package names on the command line
+Must specify package names on the command line
+ 
